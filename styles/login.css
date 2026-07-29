@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%; 
+    margin: 0;
+}
+body{
+    
+    font-family: "Roboto", sans-serif;
+    background-color: #e0fff2;
+
+}
+.container {
+   margin: 50px;
+   display: flex;
+   flex-direction: row;
+   align-items: stretch; 
+   justify-content: center;
+   border: 1px solid black;
+   border-radius: 10px;
+   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+   
+
+   overflow: hidden; 
+}
+
+.left {
+    flex: 1;
+    padding: 20px;
+    height: 50.5rem; 
+    background: url('../app/assets/mesh-175.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll; 
+     
+}
+
+.right {
+    flex: 1;
+    padding: 10px; 
+    background-color: white;
+
+}
+.login{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    height: 100%;
+}
+.login-form{
+    display: flex;
+    flex-direction:column;
+    padding:5px;
+    margin:10px;
+    justify-content: center;
+}
+label{
+    margin:10px;
+    font-size: 1.8rem;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+}
+Input{
+    margin:3px;
+    padding:10px;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.autor {
+    display: flex;
+    flex-direction: column;
+
+    align-self: flex-end; 
+    text-align: right;
+    margin: 10px;
+}
+.link{
+    text-decoration: none;
+    margin:10px;
+    color:#517ce3;
+    font-size: 1.2rem;
+    text-align: center;
+    text-justify: auto;
+
+}
+.btn-log{
+    font-size: 1.2rem;
+    border-radius: 5px;
+    width: 10rem;
+    align-self: center;
+    background-color: #78ffc5;
+    color: black;
+    cursor: pointer;
+
+}
+.btn-log:hover{
+    background-color: #517ce3;
+    color:white;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}

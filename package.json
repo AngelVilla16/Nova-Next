@@ -2,6 +2,7 @@
   "name": "nova",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cookies": "^0.9.1",
+    "jose": "^6.2.4",
+    "mysql2": "^3.23.2",
     "next": "16.2.12",
     "react": "19.2.4",
     "react-dom": "19.2.4"
